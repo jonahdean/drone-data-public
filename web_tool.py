@@ -21,7 +21,8 @@ app.config.suppress_callback_exceptions = True
 app.title = 'DSS Apps'
 
 # static file locations
-path_pre = '/Users/jonahbuckingham-cain/PycharmProjects/pythonProject/venv/static/'
+# path_pre = '/Users/jonahbuckingham-cain/PycharmProjects/pythonProject/venv/static/'
+path_pre = 'venv/static/'
 pilot_count = path_pre +'pilot_count.csv'
 df_pilot=pd.read_csv(pilot_count)
 # app = dash.Dash(__name__)
